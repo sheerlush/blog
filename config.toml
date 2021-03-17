@@ -25,7 +25,7 @@ disableLanguages        = []
   highlightjsLang       = []
   viewMorePostsLink     = "/blog/"
   readingTime           = true
-  imageStretch          = ""
+  imageStretch          = "horizontal"
   removeBlur            = false
   socialShare           = ["twitter", "facebook", "reddit", "linkedin", "pinterest", "email"]
   hideEmptyStats        = false
@@ -49,7 +49,7 @@ disableLanguages        = []
   [params.intro]
     header                = "Sheer Lush"
     paragraph             = "Decor and DIY – styling inspiration for your home."
-    rssIntro              = true
+    rssIntro              = false
     socialIntro           = true
     hideWhenSingleColumn  = false
     alwaysOnHomepage      = false
@@ -57,11 +57,11 @@ disableLanguages        = []
     [params.intro.pic]
       src                 = "images/ornament.png"
       shape               = "circle"
-      width               = ""
+      width               = "75"
       alt                 = "image of blogger"
 
   [params.sidebar]
-    about               = "Hi, I'm Jessica! This blog was started to document decorating and furnishing my home, and provide you with some inspiration."
+    about               = "Hi, I'm Jessica! Follow me in my journey of growing into my home."
     postAmount          = 5
     categories          = true
     categoriesByCount   = true
@@ -326,8 +326,35 @@ disableLanguages        = []
       weight            = 6
 
 [social]
-  # Coding Communities
-  github                = "pacollins/hugo-future-imperfect-slim"
+  # Social Networks
+  pinterest             = "sheerlush"
+  instagram             = "sheerlush_/"
+  facebook              = ""
+  reddit                = ""
+  twitter               = ""
+  snapchat              = ""
+  googleplus            = ""
+  youtube               = ""
+  quora                 = ""
+  vimeo                 = ""
+  whatsapp              = "" # WhatsApp Number
+    # WeChat and QQ need testing.
+    wechat              = ""
+    qq                  = "" # User ID Number
+  tumblr                = ""
+  strava                = ""
+  skype                 = ""
+  telegram              = ""
+  vine                  = ""
+  googlescholar         = ""
+  orcid                 = ""
+  researchgate          = ""
+  keybase               = ""
+  mastodon              = ""
+  # Email
+  email                 = "contact@sheerlush.com"
+    # Coding Communities
+  github                = ""
   gitlab                = ""
   stackoverflow         = "" # User Number
   bitbucket             = ""
@@ -335,42 +362,15 @@ disableLanguages        = []
   codepen               = ""
   # Visual Art Communities
   deviantart            = ""
-  flickr                = "example"
+  flickr                = ""
   behance               = ""
   dribbble              = ""
   # Publishing Communities
   wordpress             = ""
   medium                = ""
   # Professional/Business Oriented Communities
-  linkedin              = "example"
-  linkedin_company      = "examplebusiness"
+  linkedin              = ""
+  linkedin_company      = ""
   foursquare            = ""
   xing                  = ""
   slideshare            = ""
-  # Social Networks
-  facebook              = "example"
-  googleplus            = ""
-  reddit                = "example"
-  quora                 = ""
-  youtube               = ""
-  vimeo                 = ""
-  whatsapp              = "" # WhatsApp Number
-    # WeChat and QQ need testing.
-    wechat              = ""
-    qq                  = "" # User ID Number
-  instagram             = "example"
-  tumblr                = ""
-  twitter               = "example"
-  strava                = ""
-  skype                 = ""
-  snapchat              = ""
-  pinterest             = "example"
-  telegram              = "example"
-  vine                  = ""
-  googlescholar         = ""
-  orcid                 = ""
-  researchgate          = "example"
-  keybase               = "example"
-  mastodon              = "example.com/@example"
-  # Email
-  email                 = "example"
