@@ -8,7 +8,7 @@ paginate                = 3
 disqusShortname         = ""
 googleAnalytics         = ""
 pluralizeListTitles     = false
-disableLanguages        = []
+disableLanguages        = ["FR", "PL", "PT", "DE", "ES", "ZH-CN", "ZH-TW", "JA", "NL"]
 
 [markup.goldmark.renderer]
   unsafe                = true
@@ -25,7 +25,7 @@ disableLanguages        = []
   highlightjsLang       = []
   viewMorePostsLink     = "/blog/"
   readingTime           = true
-  imageStretch          = "horizontal"
+  imageStretch          = ""
   removeBlur            = false
   socialShare           = ["twitter", "facebook", "reddit", "linkedin", "pinterest", "email"]
   hideEmptyStats        = false
@@ -44,7 +44,7 @@ disableLanguages        = []
     dynamicTitles       = true
     searchMenu          = true
     shareMenu           = true
-    languageMenu        = true
+    languageMenu        = false
 
   [params.intro]
     header                = "Sheer Lush"
@@ -55,7 +55,7 @@ disableLanguages        = []
     alwaysOnHomepage      = false
 
     [params.intro.pic]
-      src                 = "images/ornament.png"
+      src                 = "img/pexels-flora-westbrook-1924867_copy.jpg"
       shape               = "circle"
       width               = "75"
       alt                 = "image of blogger"

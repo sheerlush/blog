@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://sheerlush.com/about/</loc>
+  </url><url>
     <loc>http://sheerlush.com/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -53,6 +55,8 @@
                 hreflang="en"
                 href="http://sheerlush.com/categories/"
                 />
+  </url><url>
+    <loc>http://sheerlush.com/contact/</loc>
   </url><url>
     <loc>http://sheerlush.com/</loc>
     <xhtml:link
