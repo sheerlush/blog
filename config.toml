@@ -55,7 +55,7 @@ disableLanguages        = ["FR", "PL", "PT", "DE", "ES", "ZH-CN", "ZH-TW", "JA",
     alwaysOnHomepage      = false
 
     [params.intro.pic]
-      src                 = "img/pexels-flora-westbrook-1924867_copy.jpg"
+      src                 = "img/sheer-lush-logo-own.png"
       shape               = "circle"
       width               = "75"
       alt                 = "image of blogger"
