@@ -6,7 +6,7 @@ title                   = "Sheer Lush"
 theme                   = "hugo-future-imperfect-slim"
 paginate                = 3
 disqusShortname         = ""
-googleAnalytics         = ""
+googleAnalytics         = "G-CKQB761PVX"
 pluralizeListTitles     = false
 disableLanguages        = ["FR", "PL", "PT", "DE", "ES", "ZH-CN", "ZH-TW", "JA", "NL"]
 
